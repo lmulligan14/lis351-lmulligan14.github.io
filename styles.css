@@ -121,6 +121,11 @@ h2 {
   flex-wrap: wrap;
 }
 
+.phone-number {
+  position: relative;
+  top: 8px;
+}
+
 .contact-details,
 .phone-number {
   font-size: 2.4rem;
@@ -145,7 +150,8 @@ h2 {
 .projects-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+  color: #CCCDCD;
+  border-bottom: 0.2rem solid #CCCDCD;
 }
 
 .projects-grid {
@@ -188,4 +194,45 @@ h2 {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 2px;
+}
+
+/* About page */
+
+
+.about {
+  background: var(--main-lightblue);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100vw;
+  margin-top: 4rem;
+  height: 100vh;
+}
+
+.about-me {
+  text-align: center;
+  padding: 7rem 3rem;
+  width: 125%;
+  height: 10%;
+  max-width: 500px;
+}
+
+.profile-image {
+  width: 50%;
+  padding-bottom: 1.5rem;
+}
+
+.description {
+  font-weight: 100;
+}
+
+.about-resume {
+  padding: 7rem 3rem;
+  width: 100%;
+  height: 60%;
+} 
+
+iframe {
+  height: 125%;
+  width: 100%;
 }
