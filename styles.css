@@ -138,6 +138,7 @@ h2 {
 .projects {
   text-align: center;
   padding: 10rem 2rem;
+  padding-bottom: 30%;
   background: var(--main-lightblue);
 }
 
@@ -154,7 +155,7 @@ h2 {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 
 .project {
