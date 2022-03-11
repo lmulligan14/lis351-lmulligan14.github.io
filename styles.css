@@ -88,6 +88,10 @@ h2 {
   color: var(--main-grey);
 }
 
+#hidden {
+  color: var(--main-darkblue);
+}
+
 /* Contact page */
 .contact {
   display: flex;
